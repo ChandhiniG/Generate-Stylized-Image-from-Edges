@@ -1,11 +1,9 @@
-# Final Project
-
 Chandhini Grandhi, cgrandhi@ucsd.edu
 
 
 ## Abstract Proposal
 
-In this project, I decided to work on improving my project 3 - image to image translation using pix2pix mode and combine it with style transfer to generate a stylised image from sketches. The project takes in a dataset of faces of people obtained from [CUHK dataset](http://mmlab.ie.cuhk.edu.hk/archive/facesketch.html) . It consists of two phases: The first model is a Pix2pix Generative Adversarial networks that takes in the image, does the processing required and generates the photos from this. Essentially, this step involves translating edges to faces. The second model is the Neural Style transfer whose content image is the image generated from pix2pix model and style image is chosen by the user.The final generated image is the stylized version of face image generated from edges. 
+This project builds an image to image translation using pix2pix model and combines it with style transfer to generate a stylised image from sketches. The project takes in a dataset of faces of people obtained from [CUHK dataset](http://mmlab.ie.cuhk.edu.hk/archive/facesketch.html) . It consists of two phases: The first model is a Pix2pix Generative Adversarial networks that takes in the image, does the processing required and generates the photos from this. Essentially, this step involves translating edges to faces. The second model is the Neural Style transfer whose content image is the image generated from pix2pix model and style image is chosen by the user.The final generated image is the stylized version of face image generated from edges. 
 
 I first built the models and experimented with the dataset. Then, I used some of the images drawn by my friends (Available in data/user-images) and generated standalone faces from user sketches and performed style transfer on them.
 
